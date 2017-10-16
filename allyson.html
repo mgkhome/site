@@ -31,9 +31,10 @@
     margin: 0;
     padding: 0;
   }
-  a {
+  a, .back-link {
     font-size: 14px;
-    color: white;
+    text-shadow: 1px 1px 4px #000000;
+    color: #a9efff;
     text-decoration: none;
     font-family: Tahoma, sans-serif;
     font-weight: normal;
@@ -41,21 +42,41 @@
   .thumb {
   	width: 200px;
   	height: 150px;
-  	border: 2px solid navy;
+  	border: 2px solid #a9efff;
     border-radius: 25px;
+    margin-bottom: 3px;
   }
+  .back-link {
+  	position: relative;
+  	top: -20px;
+  	left: -180px;
+/*  	width: 25px;
+  	height: 150px;
+  	border-right: 2px solid #a9efff;
+  	border-bottom: 2px solid #a9efff;
+  	border-top: 2px solid #a9efff;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    margin-bottom: 3px;
+*/  }
+
+
+
   .row-header {
-  	color: white;
+    text-shadow: 1px 1px 4px #000000;
+  	color: #a9efff;
   	font-size: 40px;
   	font-family: Cambria, sans-serif;
   	padding: 10px;
   }
   .content {
-  	color: white;
+    text-shadow: 1px 1px 4px #000000;
+  	color: #a9efff;
   	font-weight: normal;
   	font-size: 20px;
   	font-family: Arial, sans-serif;
   	padding: 0;
+  	line-height: 130%;
   }
 </style>
 
@@ -71,14 +92,21 @@
 
 <h2 style="background-color: #856bc2e6;
 		   color: #a9b9ff;
+	       text-shadow: 1px 1px 4px #000000;
            padding: 5px 10px 10px 10px !important;
            margin: 0;
            font-size: 28px;
            width: 100%;
            bottom-border: 1px solid black;
-           font-family: Cambria, sans-serif; ">Allyson Kragel<br>
-           </h2>
-<span style="color: #a9b9ff; font-size: 20px; position: absolute; top: 12px; right: 20px;">Marketer | Writer | Gardener</span>
+           font-family: Cambria, sans-serif; ">Allyson Kragel</h2>
+<!--
+            Allyson Kragel Resume 2017.pdf
+ -->
+ <span style="color: #a9b9ff; 
+             font-size: 20px; 
+             position: absolute;
+             text-shadow: 1px 1px 4px #000000;
+             top: 12px; right: 20px;">Marketer | Writer | Gardener</span>
 
 <table class="main-table">
   <tr>
@@ -89,48 +117,51 @@
 	  <div class="content">
 		Ready to dig in,<br>
 		get my hands dirty,<br>
-		and grow your business.
+		and grow your business.<br><br>
 	  </div>
     </th>
     <th>
-      <a target="_blank" href="doc/IowaWorks Column Wrap mockup.pdf">
-      <img class="thumb" src="images/t6.jpg"><br>Iowa Works Column Wrap<br>Concept and Content</a>
-    </th>
-    <th>
-      <a target="_blank" href="doc/14_IW_008187_GAP Bus Signs 2014_11x28 FINAL.pdf">
-      <img class="thumb" src="images/t15.jpg"><br>Bus Signs</a>
-    </th>
-    <th>
       <a target="_blank" href="doc/17_HC_012728 Shadow Puppet Theater Ad FINAL.jpg">
-      <img class="thumb" src="images/t10.jpg"><br>Puppet Theater</a>
+      <img class="thumb" src="images/t6.jpg"><br>Higher Education</a>
     </th>
-  </tr>
-  <tr>
     <th>
+      <a target="_blank" href="doc/17_IW_012365 Update IowaWORKS Info Card Job Seekers.pdf">
+      <img class="thumb" src="images/t15.jpg"><br>Workforce Development</a>
+    </th>
+    <th nowrap>
       <a target="_blank" href="doc/mercy.html">
-      <img class="thumb" src="images/t11.jpg"><br>Mercy Oral Hygiene</a>
-    </th>
-    <th>
-      <a target="_blank" href="https://creativecorridor.co/joinforces/">
-      <img class="thumb" src="images/t9.jpg"><br>Join Forces</a>
-    </th>
-    <th>
-      <a target="_blank" href="http://www.kirkwood.edu/50years/">
-      <img class="thumb" src="images/t5.jpg"><br>Kirkwood 50 Years</a>
+      <img class="thumb" src="images/t10.jpg"><br>Health Care</a>
     </th>
   </tr>
   <tr>
     <th>
-      <a target="_blank" href="doc/performance.html">
-      <img class="thumb" src="images/t14.jpg"><br>Performance Training Postcard</a>
+      <a target="_blank" href="doc/17_MK_012924_Kirkwood At A Glance_Millions of Reasons Why FINAL.pdf">
+      <img class="thumb" src="images/t8.jpg"><br>Annual Report</a>
     </th>
     <th>
-      <a target="_blank" href="doc/17_MK_013396 Prairie Football Program Ad.pdf">
-      <img class="thumb" src="images/t13.jpg"><br>Football Program Ad</a>
+      <a target="_blank" href="doc/15_IW_009484 PACE 8.5x11 DRAFT FINAL.pdf">
+      <img class="thumb" src="images/t14.jpg"><br>Legislative</a>
     </th>
     <th>
-      <a target="_blank" href="doc/18_IW_013888 KPACE VIP Poster Marvin PROOF 3.pdf">
-      <img class="thumb" src="images/t12.jpg"><br>KPACE VIP</a>
+      <a target="_blank" href="doc/promos.html">
+      <img class="thumb" src="images/t5.jpg"><br>Event Promos</a>
+    </th>
+  </tr>
+  <tr>
+    <th>
+      <a target="_blank" href="doc/KPACE Spot.mp3">
+      <img class="thumb" src="images/t9.jpg"><br>Radio</a>
+    </th>
+    <th>
+      <a target="_blank" href="https://www.youtube.com/watch?v=3C8xriLX9uQ">
+      <img class="thumb" src="images/t13.jpg"><br>Video</a>
+    </th>
+    <th>
+<!--
+	   http://www.kirkwood.edu/50years/
+ -->
+       <a target="_blank" href="https://creativecorridor.co/joinforces/">
+      <img class="thumb" src="images/t12.jpg"><br>Web</a>
     </th>
   </tr>
 </table>
