@@ -11,7 +11,7 @@ https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css
   <link rel="icon" 
         type="image/png" 
         href="Icon 4.png">
-  <title>links</title>
+  <title>Links</title>
   <style type="text/css">
     body {
       background-color: gray;
@@ -28,25 +28,35 @@ https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css
       text-decoration: none;
       color: silver;
     }
-    table.link-table td:hover {
-      background-color: darkblue;
-      color: yellow;
-    }
     table.link-table td {
       width: 80px;
+      padding: 10px;
+      border-radius: 25px;
+      border: 1px solid black;
       background-color: black;
       text-align: center;
-      padding: 10px;
-      border: 1px solid black;
-      border-radius: 25px;
     }
-    tr.td-blue td {
-      background-color: blue;
+    table.link-table td:hover {
+      background-color: #990000;   /* C13100 */
+    }
+
+      
+      
+      
+    table.link-table tr.row2 td {
+      background-color: navy;
       color: black;
     }
-    tr.td-blue td .fa {
+    table.link-table tr.row2 td .fa {
       color: black !important;
     }
+    table.link-table tr.row2 td:hover {
+      background-color: cyan;
+    }
+    table.link-table tr.row2 td:hover .fa {
+      color: green;
+    }
+
 
   </style>
 </head>
@@ -60,19 +70,28 @@ https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css
            border: 1px solid brown;
            font-family: Arial, Helvetica, sans-serif; ">Links</h2>
 <table class="link-table">
-  <tr>
-    <td><a target="_blank" href="https://www.google.com">               <i class="fa fa-google fa-5x"></i><br>Google</a></td>
-    <td><a target="_blank" href="https://www.yahoo.com">                <i class="fa fa-yahoo fa-5x"></i>       <br>Yahoo</a></td>
-    <td><a target="_blank" href="https://www.gmail.com">                <i class="fa fa-envelope-o fa-5x"></i>  <br>Gmail</a></td>
+  <tr class="row1">
+    <td><a target="_blank" href="https://mgkhome.github.io/site/">      <i class="fa fa-home fa-5x"></i>       <br>Home</a></td>
+    <td><a target="_blank" href="https://www.google.com">               <i class="fa fa-google fa-5x"></i>     <br>Google</a></td>
+    <td><a target="_blank" href="https://www.google.com/imghp">         <i class="fa fa-picture-o fa-5x"></i>  <br>Images</a></td>
+    <td><a target="_blank" href="https://www.yahoo.com">                <i class="fa fa-yahoo fa-5x"></i>      <br>Yahoo</a></td>
+    <td><a target="_blank" href="https://www.gmail.com">                <i class="fa fa-envelope-o fa-5x"></i> <br>Gmail</a></td>
   </tr>
     
-  <tr class="td-blue">
+  <tr class="arow2">
+    <td><a target="_blank" href="https://github.com/mgkhome/site">      <i class="fa fa-github fa-5x"></i>      <br>Github</a></td>
     <td><a target="_blank" href="https://fontawesome.com/v4.7.0/icons/"><i class="fa fa-font-awesome fa-5x"></i><br>Font Awesome</a></td>
-    <td><a target="_blank" href="https://mgkhome.github.io/site/">      <i class="fa fa-github fa-5x"></i>      <br>Github</a></td>
-    <td><a target="_blank" href="https://www.gmail.com">                <i class="fa fa-envelope-o fa-5x"></i>  <br>Gmail</a></td>
+    <td><a target="_blank" href="https://music.amazon.com/artists/B00G8A6294/">  <i class="fa fa-music fa-5x"></i>  <br>Amazon Music</a></td>
+    <td><a target="_blank" href="https://www.amazon.com/">  <i class="fa fa-amazon fa-5x"></i>  <br>Amazon</a></td>
+      
+      
   </tr>
       
             
 </table>
+<!--
+    image, cogs, fighter-jet, 
+    hand-pointer-o
+-->
 </body>
 </html>
